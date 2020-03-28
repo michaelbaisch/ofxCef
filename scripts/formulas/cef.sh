@@ -6,7 +6,7 @@ FORMULA_TYPES=( "osx" "vs" "msys2" )
 
 # Define the version and distribution (Standard | Minimal)
 # Is there permanent link to the latest version?
-VER="76.1.13+gf19c584+chromium-76.0.3809.132"
+VER="79.1.35+gfebbb4a+chromium-79.0.3945.130" #"76.1.13+gf19c584+chromium-76.0.3809.132"
 DISTRIBUTION="Minimal"
 
 # download the source code and unpack it into LIB_NAME
