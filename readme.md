@@ -72,7 +72,10 @@ After creating a new project with the ProjectGenerator you have to do a few simp
 4. On the left in the source tree select now each `.cpp` file in `addons/ofxCef/src` and set the type in the file inspector to `Objective-C++ Source`.
 	
 	![Screenshot Xcode Objective-C Sources](images/screenshot-xcode-objc-sources.png)
-	
+
+
+If you get a Code Signing error `code object is not signed at all / Command CodeSign failed with a nonzero exit code` in of_v0.10.1 you might have to add `--deep` to `Other Code Signing Flags`. Delete the app before rebuilding.
+
 **Note on the `cef_helper_mac`**
 
 If you change any of the following sources you have to rebuild the `cef_helper_mac`:
